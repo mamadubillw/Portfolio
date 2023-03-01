@@ -10,10 +10,10 @@ const Navbar = () => {
   return (
     <nav className='app__navbar'>
       <div className='app__logo'>
-        <img src={images.logo} alt="logo" />
+        <img src={images.bilLogo} alt="logo" />
       </div>
       <ul className='app__navbar-links'>
-        {['home', 'about', 'contact', 'work', 'skills'].map((item) => (
+        {['home', 'sobre', 'contacto', 'trabalhos', 'skills'].map((item) => (
             <li className='app__flex app_text' key={`link-${item}`}>
                 <div />
                 <a href={`#${item}`}>{item}</a>

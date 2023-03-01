@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { images } from '../../constants';
+import images  from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper/Index';
 import { client } from '../../client';
 import './Footer.scss';
@@ -37,7 +37,7 @@ const Footer = () => {
 
   return (
     <>
-      <h2 className="head-text">Take a coffee & chat with me</h2>
+      <h2 className="head-text">Sinta-se Livre & Pode contactar-me a qualquer momento</h2>
 
       <div className="app__footer-cards">
         <div className="app__footer-card ">
@@ -52,15 +52,15 @@ const Footer = () => {
       {!isFormSubmitted ? (
         <div className="app__footer-form app__flex">
           <div className="app__flex">
-            <input className="p-text" type="text" placeholder="Your Name" name="username" value={username} onChange={handleChangeInput} />
+            <input className="p-text" type="text" placeholder="Seu Nome" name="username" value={username} onChange={handleChangeInput} />
           </div>
           <div className="app__flex">
-            <input className="p-text" type="email" placeholder="Your Email" name="email" value={email} onChange={handleChangeInput} />
+            <input className="p-text" type="email" placeholder="Seu Email" name="email" value={email} onChange={handleChangeInput} />
           </div>
           <div>
             <textarea
               className="p-text"
-              placeholder="Your Message"
+              placeholder="Mensagem"
               value={message}
               name="message"
               onChange={handleChangeInput}
@@ -71,7 +71,7 @@ const Footer = () => {
       ) : (
         <div>
           <h3 className="head-text">
-            Thank you for getting in touch!
+          Obrigado por entrar em contato!
           </h3>
         </div>
       )}
@@ -81,6 +81,6 @@ const Footer = () => {
 
 export default AppWrap(
   MotionWrap(Footer, 'app__footer'),
-  'contact',
+  'contacto',
   'app__whitebg',
 );

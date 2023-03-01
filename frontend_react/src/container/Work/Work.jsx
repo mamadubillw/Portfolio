@@ -110,6 +110,6 @@ const Work = () => {
 
 export default AppWrap(
   MotionWrap(Work, 'app__skills'),
-  'work',
+  'trabalhos',
   'app__whitebg',
 );
