@@ -25,6 +25,8 @@ import about04 from '../assets/about04.png';
 
 import profile from '../assets/profile.png';
 import prof from '../assets/prof.jpeg';
+import perf from '../assets/perf.png';
+import perf1 from '../assets/perf1.png';
 import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
 
@@ -62,6 +64,8 @@ export default {
   about04,
   profile,
   prof,
+  perf,
+  perf1,
   circle,
   logo,
   adidas,
